@@ -1,0 +1,138 @@
+.productos{
+    margin: 40px;
+    display: flex;
+    flex-direction: row;
+    @include movil{
+        display: block;
+        margin: 15px;
+    }
+    @include movxs{
+        margin: 5px;
+    }
+    @include tablet{
+        display: block;
+    }
+    &__side, &__side2{
+        width: 20%;
+        background-color: #008dd4;
+        @include movil{
+            width: 100%;
+            padding-bottom: 1px;
+        }
+        @include tablet{
+            width: 100%;
+            padding-bottom: 1px;
+        }
+        @include portatil{
+            width: 30%;
+        }
+        @include uhd{
+            width: 20%;
+        }
+        &--links ul{
+            list-style: none;
+            align-self: center;
+            @include movil{
+                display: block;
+            }
+            @include tablet{
+                display: block;
+            }
+        }
+        &--links ul li{
+            padding-bottom: 40px;
+            padding-top: 10px;
+            border-bottom: solid 1px;
+            @include movil{
+                padding-bottom: 15px;
+            }
+        }
+        &--links ul li a{
+            text-decoration: none;
+            color: white;
+            font-weight: 500;
+            font-size: 1.6rem;
+            @include movil{
+                font-size: 1.2rem;
+            }
+            @include tablet{
+                font-size: 1.2rem;
+            }
+        }
+        &--links ul li a:hover{
+            color: rgb(161, 180, 136);
+        }
+    
+
+    }
+    &__side{
+        @include movil{
+            display: none;
+        }
+    }
+    &__img{
+        width: 80%;
+        display: flex;
+    }
+    .container{
+        background-color: white;
+    }
+}
+.titulo-productos{
+    
+    h2{
+        color: black;
+        font-weight: 600;
+        border-bottom:solid 1px #083A59;
+        padding-top: 10px;
+    }
+}
+
+ .menu-productos{
+     @include portatil {
+         display: none;
+     }
+     @include uhd{
+         display: none;
+     }
+     @include tablet{
+         display: none;
+     }
+    
+    }
+
+    .menu-productos .navbar-toggler{
+        background: rgb(4,45,71);
+        background: linear-gradient(90deg, rgba(4,45,71,1) 19%, rgba(16,71,106,1) 46%, rgba(13,83,124,1) 59%, rgba(0,141,212,1) 100%);
+        border-radius: 0.30rem;
+        .bi-collapse, .bi-expand{
+            color: #fff;
+        }
+      }
+
+  .navbar-toggler:focus{
+      box-shadow: none;
+  }
+
+  .navbar-toggler:not(.collapsed) .bi-expand{
+      display: none;
+  }
+
+  .navbar-toggler:not(.collapsed) .bi-collapse{
+      display: inline-block;
+  }
+  .navbar-toggler .bi-collapse{
+      display: none;
+  }
+
+  .container-fluid.desplegable{
+      justify-content: center;
+  }
+
+  .productos-sec{
+      font-weight: 600;
+      font-size: 1rem;
+      color: #fff;
+      margin-bottom: 0;
+  }
+

@@ -1,0 +1,32 @@
+$alto:100vh;
+
+.quienes-somos{
+    display: flex;
+    height: $alto - 16.4vh;
+    @include movil{
+        display: block;
+    }
+    &__texto{
+        width: 50%;
+        align-self: center;
+        @include movil{
+            width: 100%;
+        }
+        &--p{
+            color: black;
+            padding: 20px;
+        }
+    }
+    &__imagen{
+        width: 50%;
+        align-self: center;
+        @include movil{
+            width: 100%;
+        }
+        &--img{
+            width: 100%;
+            padding: 20px;
+        }
+    }
+
+}

@@ -1,0 +1,163 @@
+footer{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 20px 100px;
+    background: rgb(4,45,71);
+    background: linear-gradient(90deg, rgba(4,45,71,1) 19%, rgba(16,71,106,1) 46%, rgba(13,83,124,1) 59%, rgba(0,141,212,1) 100%);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    @include tablet{
+       padding-right: 10px;
+       padding-left: 10px;
+   }
+   @include movil{
+       padding: 10px;
+   }
+   
+}
+footer .pie{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    @include tablet{
+        flex-direction: row;
+    }
+    @include movil{
+       flex-direction: column;
+   }
+}
+footer .pie .sec{
+    margin-right: 30px;
+    @include tablet{
+        margin-right: 0;
+    }
+    @include movil{
+       margin-right: 0;
+   }
+}
+footer .pie .sec.nosotros{
+    width: 40%;
+    @include tablet{
+        width: 30%;
+    }
+    @include movil{
+       width: 100%;
+   }
+}
+footer .pie h2{
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+footer .pie h2:before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #f00;
+}
+footer p{
+    color: #999;
+}
+.sci{
+    display: flex;
+}
+.sci li{
+    list-style: none;
+}
+.sci li a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: #0E5673;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.sci li a:hover{
+   background: #008dd4;
+}
+.sci li a .fab{
+   color: #fff;
+   font-size: 20px;
+}
+.atajos{
+   position: relative;
+   width: 25%;
+   @include tablet{
+       width: 35%;
+   }
+   @include movil{
+       width: 100%;
+   }
+}
+.atajos ul li{
+   list-style: none;
+}
+.atajos ul li a{
+   color: #999;
+   text-decoration: none;
+   margin-bottom: 10px;
+   display: inline-block;
+}
+.atajos ul li a:hover{
+   color: #fff;
+}
+.contacto{
+   width: calc(35% - 60px);
+   margin-right: 0 !important;
+   @include tablet{
+       width: 35%;
+   }
+   @include movil{
+       width: 100%;
+   }
+}
+.contacto .info{
+   position: relative;
+   @include tablet{
+       padding-left: 0px;
+   }
+}
+.contacto .info li{
+   display: flex;
+}
+.contacto .info li span:nth-child(1){
+   color: #fff;
+   font-size: 20px;
+   margin-right: 10px;
+}
+.contacto .info li span{
+   color: #999;
+   margin-bottom: 10px;
+}
+.contacto .info li a, .horario{
+   color: #999;
+   text-decoration: none;
+}
+.contacto .info li a:hover{
+   color: #fff;
+}
+.copyright{
+   width: 100%;
+   background: #181818;
+   padding: 8px 100px;
+   text-align: center;
+   color: #999;
+   @include tablet{
+       padding: 8px 40px;
+   }
+   @include movil{
+       padding: 8px 40px;
+   }
+}

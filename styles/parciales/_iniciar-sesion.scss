@@ -1,0 +1,16 @@
+/*Este es el padding de Bienvenido*/
+.py-5{  
+    @include movil{
+        padding-top: 0 !important;
+    }
+}
+
+.w-75{
+    @include movil{
+        width: 95% !important;
+        height: auto !important;
+    }
+    @include land{
+        height: auto !important;
+    }
+}

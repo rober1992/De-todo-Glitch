@@ -1,0 +1,25 @@
+.modal-body-product{
+    display: flex;
+    justify-content: center;
+}
+
+.modal-body-product img{
+    width: 80%;
+}
+
+.modal-title{
+    color: black;
+    font-weight: 600;
+}
+
+.desc-modal{
+    color: black;
+    text-align: center;
+}
+
+.modal-footer .btn{
+    background-color: #008dd4;
+}
+.modal-footer .btn:hover{
+    background-color: #083A59;
+}

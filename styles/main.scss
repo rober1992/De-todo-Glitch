@@ -1,0 +1,228 @@
+@import "./parciales/responsive";
+@import "./parciales/quienes-somos";
+@import "./parciales/contacto";
+@import "./parciales/productos";
+@import "./parciales/iniciar-sesion";
+@import "./parciales/footer";
+@import "./parciales/modal";
+
+body{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    background-color: #f0f2f5;
+}
+
+.navbar{
+    border-bottom: 1px solid #F2F2F2;
+    box-shadow: 5px 0 10px rgba(0, 0, 0, .6);
+  }
+  .navbar-expand-lg .navbar-nav .nav-link{
+      @include portatil{
+          padding-right: 0.3rem;
+          padding-left: 0.2rem;
+      }
+      @include uhd{
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+    }
+  }
+
+.container{
+    background-color: white;
+}
+.carouselPadding{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+.producto{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    cursor: pointer;
+    transition-property: box-shadow;
+    transition-duration: 0.3s;
+    margin-top: 10px;
+    box-shadow: 0 0 1.5em rgba(0, 0, 0, .1);
+    .producto__imagen{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        height: 320px;
+        border-radius: 20px;
+    }
+}
+.producto:hover{
+    box-shadow: 0 0 1.5em rgba(0, 0, 0, .3);
+    
+}
+
+.informacion{
+    border-top: 1px solid white;
+    padding: 1.5em;
+    display: flex;
+    flex-flow: column;   
+}
+
+.precio{
+    font-size: 1.5em;
+    color: black;
+    font-weight: 600;
+}
+
+.descripcion{
+    font-size: 0.9em;
+    font-weight: 300;
+    color: #008dd4;
+}
+
+.productos-destacados{
+    margin-top: 30px;
+
+    .productos-destacados__des{
+        border-bottom: #0D0D0D solid 1px;
+        text-align: center;
+        padding: 10px;
+        color: black;
+        font-weight: 600;
+    }
+   .productos-destacados__des:hover{
+        color: grey;
+    }
+}
+
+.w-75{
+    height: 100vh-16.4vh;
+}
+.maps{
+    text-align-last: center;
+    margin-bottom: 20px;
+}
+
+.navbar-brand{
+    @include tablet{
+        padding-top: 0px;
+        padding-left: 10px;
+    }
+        .navbar-brand__imagen{
+        @include movil{
+            width: 200px;
+            padding-left: 10px;
+        }
+        @include portatil{
+            width: 280px;
+        }
+        @include tablet{
+            width: 280px;
+        }
+
+    }
+
+}
+
+.cart img{
+    width: 40px;
+    margin-left: 20px;
+    margin-right: 15px;
+    padding-top: 5px;
+    @include movxs{
+        margin-right: 0;
+        margin-left: 0;
+
+    }
+    @include movil{
+        margin-bottom: 15px;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    @include tablet{
+        margin-bottom: 15px;
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+
+
+.cartImg {
+    width: 45px; 
+    cursor: pointer;
+}
+#cantidadEnCarrito{
+    width: 20px;
+    height: 19px;
+    background: #0058a4;
+    color: #e6ebef;
+    font-weight: 600;
+    font-size: .8em;
+    text-align: center;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    position: absolute;
+    right: 8.7px;
+    top: -2px;
+    text-indent: -0.5px;
+    line-height: 20px;
+}
+
+.modalImagen{
+    display: block;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.imagenesModal {
+    height: 95px;
+    width: 90px;
+    border-radius: 5%;
+}
+
+.inputCuenta {
+    max-width: 49px;
+}
+
+.table-image {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.precioTotal {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.btnModal{
+    width: auto !important;
+}
+
+
+.col-3 h6, h5, .product-price , .parrafo-pago{
+    color: #000000 !important;
+    font-weight: 600;
+}
+
+
+.agua{
+    background-image: url(/media/agua2.jpg);
+    background-size: 100%;
+    height: 70vh;
+    margin-top: 30px;
+    @include movil{
+        background-repeat: no-repeat;
+        height: 70vh;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+.swal-text{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+
