@@ -1,0 +1,67 @@
+[
+    {
+        "id": 1,
+        "titulo": "Valvula slim para inodoros",
+        "imagen": "./media/repuestos/valvula-slim-inodoros.jpg",
+        "descripcion": "Valvula slim para inodoros. Presión de trabajo entre 0.25 BAR y 4.5 BAR. Caudal mínimo a la salida de la válvula: 90 litros por minuto.",
+        "precio": "$22500"
+      },
+      {
+        "id": 2,
+        "titulo": "Inodoro largo Milena",
+        "imagen": "./media/inodoros/Milena_InodoroLargo_chica.jpg",
+        "descripcion": "Diseño moderno. Funciona con deposito de apoyar. Posee sistema sifónico, que facilita la limpieza y el mantenimiento del producto. Aclaración: No Incluye tapa ni depósito.",
+        "precio": "$32200"
+      },
+      {
+        "id": 3,
+        "titulo": "Tanque Eternit polietileno tricapa 500 lt bajo techo",
+        "imagen": "./media/tanques/eternit-500-bajo.jpg",
+        "descripcion": "Este producto Eternit Bajo Techo te permitirá almacenar agua en las mejores condiciones y conservar todas sus propiedades para utilizarla cuando necesites. Su estructura de gran resistencia evita el paso de la luz exterior al interior del tanque, por lo que podrás ubicarlo en ambientes exteriores sin inconvenientes.",
+        "precio": "$12600"
+
+      },
+      {
+        "id": 4,
+        "titulo": "Termotanque Señorial multigas 30 lt",
+        "imagen": "./media/termotanques/Termotanque-multigas-Señorial.png",
+        "descripcion": "Termotanque a gas de alta recuperación Señorial TSZ-30 30lts con regulador de temperaturay piloto analizador de gases",
+        "precio": "$23000"
+      },
+      {
+        "id": 5,
+        "titulo": "Denisse - Juego para lavatorio FV",
+        "imagen": "./media/griferia/denisse.jpg",
+        "descripcion": "Juego para lavatorio. Desagüe con tapita.Líneas con tecnología con cierre cerámico.",
+        "precio": "$12300"
+      },
+      {
+        "id": 6,
+        "titulo": "Regulador Gas Natural Gs 10 M3/h Salustri",
+        "imagen": "./media/reguladores/salustri.png",
+        "descripcion": "Regulador Salustri De Presion De Gas Natural De 10 Mts / H Nuevo y moderno diseño incorporando mejoras. Regulador de dos etapas inyectado en aluminio lo que reduce notablemente su peso.",
+        "precio": "$6500"
+      },
+      {
+        "id": 7,
+        "titulo": "Termofusora 800W",
+        "imagen": "./media/repuestos-gas/Termofusora800w.png",
+        "descripcion": "Potencia 800 W, Cantidad de boquillas 6 unidades ,Medidas ø 20/25/32/40/50/63 mm (0,78'/ 0,98'/ 1,25'/ 1,57'/ 1,96'/ 2,48') Alimentación 220 V / 50Hz.",
+        "precio": "$7900"
+      },
+      {
+        "id": 8,
+        "titulo": "Bidet Roca the Hall lluvia",
+        "imagen": "./media/bidet/bidet-roca-hall.jpg",
+        "descripcion": "Fabricado en porcelana sanitaria. Diseño moderno. Es combinable con el inodoro de la línea Bidet Roca the hall blanco. Aclaración: No incluye grifería ni tapa.",
+        "precio": "$38100"
+      },
+      {
+        "id": 9,
+        "titulo": "Bomba Rowa Tango Press 20",
+        "imagen": "./media/bombas/tango-press-2.0.jpg",
+        "descripcion": "Aumento de la presión de agua en viviendas en general con cisterna o tanque elevado. Bajo consumo, seguridad y confiabilidad. Hasta 2 plantas y 2 duchas",
+        "precio": "$56700"
+
+      }
+]

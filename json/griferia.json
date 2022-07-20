@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "titulo": "Malena Juego para cocina / lavadero para embutir FV",
+        "imagen": "/media/griferia/malena.jpg",
+        "descripcion": "Grifería para lavatorio pared de dos llaves FV línea Malena, cierre a vástago no ascendente. Cromo con transferencia cromo. Desagüe con tapita. Apto para calefón y termotanque",
+        "precio": "$12650"
+        
+      },
+      {
+        "id": 2,
+        "titulo": "Libby - Juego monocomando para pared de cocina FV",
+        "imagen": "/media/griferia/libby-monocomando.jpg",
+        "descripcion": "Al ser una grifería monocomando proporcionan un control muy ajustado de la temperatura del agua. Un solo mando abre el paso del agua al accionarlo y ajusta la temperatura girando hacia la derecha o izquierda. El pico móvil permite llegar a cualquier parte de la pileta de cocina y el pico aireador evita que el chorro de agua salpique.",
+        "precio": "$16900"
+        
+      },
+      {
+        "id": 3,
+        "titulo": "Unimix - Juego monocomando para mesada de cocina FV",
+        "imagen": "/media/griferia/unimix.jpg",
+        "descripcion": "Al ser una grifería monocomando proporcionan un control muy ajustado de la temperatura del agua. Un solo mando abre el paso del agua al accionarlo y ajusta la temperatura girando hacia la derecha o izquierda. El pico móvil permite llegar a cualquier parte de la pileta de cocina y el pico aireador evita que el chorro de agua salpique.",
+        "precio": "$12600"
+      },
+      {
+        "id": 4,
+        "titulo": "Libby - Juego para lavatorio FV",
+        "imagen": "/media/griferia/libby.jpg",
+        "descripcion": "Con cierre cerámico (1/4 de vuelta) presenta una tecnología avanzada de discos cerámicos que permiten movimientos de apertura y cierre suaves y precisos. No requiere mantenimiento y evita que la grifería gotee.",
+        "precio": "$14200"
+      },
+      {
+        "id": 5,
+        "titulo": "Dominic - Juego para lavatorio FV",
+        "imagen": "/media/griferia/dominic.jpg",
+        "descripcion": "Con cierre cerámico (1/4 de vuelta) presenta una tecnología avanzada de discos cerámicos que permiten movimientos de apertura y cierre suaves y precisos. No requiere mantenimiento y evita que la grifería gotee.",
+        "precio": "$13400"
+      },
+      {
+        "id": 6,
+        "titulo": "Denisse - Juego para lavatorio FV",
+        "imagen": "/media/griferia/denisse.jpg",
+        "descripcion": "Juego para lavatorio. Desagüe con tapita.Líneas con tecnología con cierre cerámico.",
+        "precio": "$12300"
+      }
+
+]
